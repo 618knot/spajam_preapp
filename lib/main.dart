@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:spajam_preapp/control.dart';
+import '1cocntrolFlight.dart';
+import '1controlLodgoing.dart';
+import '1controlMeal.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Spajam Demo',
-      home: const Control(),
+      home: const ControlMeal(),
     );
   }
 }
