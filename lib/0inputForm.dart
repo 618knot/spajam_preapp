@@ -12,7 +12,7 @@ class InputForm extends StatelessWidget {
       child: SizedBox(
         width: MediaQuery.of(context).size.width * 0.85,
         height: 40,
-        child: TextFormField(
+        child: TextFormField( // ごまかし
           decoration: InputDecoration(
             filled: true,
             fillColor: Color.fromARGB(255, 110, 0, 105),
