@@ -138,13 +138,6 @@ class ControlState extends State<Control> {
                 side: const BorderSide(width: 2, color: Colors.white)),
             onPressed: () {
               _updatePageNum(pageNum);
-              // if (pageNum == 0) {
-              //   Navigator.pushNamed(context, '/Flight');
-              // }else if(pageNum == 1) {
-              //   Navigator.pushNamed(context, '/Lodgoing');
-              // }else if(pageNum == 2) {
-              //   Navigator.pushNamed(context, '/Meal');
-              // }
             },
           ),
         ),
@@ -167,13 +160,6 @@ class ControlState extends State<Control> {
                     width: 0, color: Color.fromARGB(255, 91, 0, 86))), // ごまかし
             onPressed: () {
               _updatePageNum(pageNum);
-              // if (pageNum == 0) {
-              //   Navigator.pushNamed(context, '/Flight');
-              // }else if(pageNum == 1) {
-              //   Navigator.pushNamed(context, '/Lodgoing');
-              // }else if(pageNum == 2) {
-              //   Navigator.pushNamed(context, '/Meal');
-              // }
             },
           ),
         ),
