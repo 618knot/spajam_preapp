@@ -1,8 +1,4 @@
 import 'package:flutter/material.dart';
-import '1FlightBottom.dart';
-import '1LodgoingBottom.dart';
-import '1MealBottom.dart';
-import '0bottomSheet.dart' as btm;
 import '1contents.dart';
 import '0control.dart';
 
@@ -22,12 +18,6 @@ class MyApp extends StatelessWidget {
     List<Widget> images = contents.images;
     return MaterialApp(
       title: 'Spajam Demo',
-      // initialRoute: '/Flight',
-      // routes: {
-      //   '/Flight':(context) => FlightPage(),
-      //   '/Lodgoing':(context) => LodgoingPage(),
-      //   '/Meal':(context) => MealPage()
-      // },
       home: Control()
     );
   }

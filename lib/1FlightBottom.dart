@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:spajam_preapp/0control.dart';
-import 'package:spajam_preapp/0inputForm.dart';
 import 'package:spajam_preapp/0bottomSheet.dart' as btm;
 import '1contents.dart';
 
